@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuickFix Login</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f0f7f3;display:flex;justify-content:center;align-items:center;min-height:100vh}
+.card{background:white;width:90%;max-width:420px;padding:35px;border-radius:18px;box-shadow:0 10px 35px #0001}
+h1{text-align:center;color:#16845b;margin-bottom:5px}
+p{text-align:center;color:#777}
+.tabs{display:flex;gap:10px;margin:25px 0}
+.tabs button{flex:1;padding:12px;border:1px solid #ddd;background:#f5f5f5;border-radius:8px;cursor:pointer}
+.tabs button.active{background:#16845b;color:white;border-color:#16845b}
+input{width:100%;padding:13px;margin:9px 0;border:1px solid #ddd;border-radius:8px;font-size:15px}
+.submit{width:100%;padding:14px;background:#16845b;color:white;border:0;border-radius:8px;font-size:16px;cursor:pointer;margin-top:12px}
+.toggle{text-align:center;margin-top:20px;color:#16845b;cursor:pointer}
+#message{text-align:center;font-size:14px}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>QuickFix</h1>
+<p>SERVICE REQUEST PORTAL</p>
+
+<div class="tabs">
+<button id="userTab" class="active" type="button">User</button>
+<button id="adminTab" type="button">Admin</button>
+</div>
+
+<h2 id="heading">User Login</h2>
+
+<form id="authForm">
+<div id="nameField" style="display:none">
+<input id="name" placeholder="Full Name">
+</div>
+<input id="email" type="email" placeholder="Email Address" required>
+<input id="password" type="password" placeholder="Password" required>
+<button class="submit" id="submitBtn">Login</button>
+</form>
+
+<p id="message"></p>
+<div class="toggle" id="toggle">New user? Register here</div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>

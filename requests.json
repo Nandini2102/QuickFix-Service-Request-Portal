@@ -1,0 +1,41 @@
+[
+  {
+    "id": "SR-8738229",
+    "name": "xxxx",
+    "email": "abc@gmail.com",
+    "phone": "",
+    "category": "Electrical",
+    "priority": "Urgent",
+    "location": "chennai",
+    "description": "WIFI not working",
+    "status": "Pending",
+    "createdAt": "2026-11-25T14:58:58.229Z",
+    "updatedAt": "2026-11-25T15:21:59.445Z"
+  },
+  {
+    "id": "SR-8872247",
+    "name": "yyy",
+    "email": "xyz@gmail.com",
+    "phone": "",
+    "category": "Plumbing",
+    "priority": "Normal",
+    "location": "Vanagaram",
+    "description": "water pipe leakage",
+    "status": "Pending",
+    "createdAt": "2026-11-25T15:01:12.247Z",
+    "updatedAt": "2026-11-25T15:04:59.270Z"
+  },
+  {
+    "id": "SR-4731688",
+    "name": "Mr.XYZ",
+    "email": "xyz@gamil.com",
+    "phone": "",
+    "category": "Electrical",
+    "priority": "Normal",
+    "location": "chennai",
+    "description": "Fan not working",
+    "status": "In Progress",
+    "createdAt": "2026-11-25T16:38:51.688Z",
+    "updatedAt": "2026-11-25T16:40:14.726Z"
+  }
+]
